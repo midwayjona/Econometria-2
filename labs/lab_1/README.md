@@ -1,36 +1,47 @@
-# 🧪 Laboratorios de Econometría II
+# Laboratorio #1 – Ingeniería de Características Parte 1
 
-Esta carpeta contiene los laboratorios desarrollados durante el curso **Econometría II - Machine Learning**, parte del Postgrado en Investigación de Operaciones en Universidad Galileo.
+Este laboratorio se centra en la aplicación de técnicas fundamentales de **ingeniería de características** utilizando un dataset proporcionado.
 
-## 📍 Objetivo de los Laboratorios
+## Objetivo
 
-Los laboratorios están diseñados para poner en práctica los conceptos aprendidos en clase, utilizando Python y Jupyter Notebooks como herramientas principales para el desarrollo de modelos de aprendizaje supervisado.
+Realizar un análisis exploratorio de las características del dataset y aplicar técnicas adecuadas para el manejo de datos faltantes y codificación de variables categóricas.
 
-Cada laboratorio abordará distintos aspectos del flujo de trabajo de Machine Learning, incluyendo:
+## Instrucciones
 
-- Limpieza y preprocesamiento de datos.
-- Ingeniería de características.
-- Modelado predictivo (regresión y clasificación).
-- Evaluación y visualización de modelos.
-- Optimización de hiperparámetros.
-- Implementación de `pipelines` con `scikit-learn`.
+A partir del dataset proporcionado, realizar las siguientes tareas:
 
-## ⚙️ Requisitos
+1. **Detección de Valores Faltantes**:
+   - Identificar columnas con valores nulos (NA).
+   - Calcular proporciones de faltantes por columna.
+   - Visualizar con una gráfica de barras los porcentajes de faltantes.
 
-Para ejecutar los notebooks necesitarás tener instalado:
+2. **Imputación de Datos**:
+   - Variables numéricas: evaluar y aplicar los siguientes métodos de imputación:
+     - Análisis de casos completos (CCA)
+     - Imputación por media
+     - Imputación por mediana
+     - Imputación aleatoria (opcional)
+   - Variables categóricas:
+     - Considerar el impacto en la variable objetivo (target).
+     - Evaluar si se debe usar el valor más frecuente.
+     - Aplicar indicadores de clase faltante si corresponde.
 
-- Python 3.8+
-- Jupyter Notebook o JupyterLab
-- Paquetes recomendados:
-  - `numpy`
-  - `pandas`
-  - `matplotlib`
-  - `seaborn`
-  - `scikit-learn`
-  - `mlflow` (en laboratorios avanzados)
+3. **Codificación de Variables Categóricas**:
+   - Aplicar el enfoque más adecuado por variable:
+     - One Hot Encoding
+     - Codificación por Frecuencia
+     - Codificación por Densidad
 
-Se recomienda utilizar un entorno virtual (`venv`, `conda`) para mantener organizada la instalación de dependencias.
+4. **Clasificación de Variables**:
+   - Identificar y clasificar las variables como:
+     - Discretas
+     - Continuas
+
+## Entregables
+
+- Notebook Jupyter (`lab1.ipynb`) con todo el código, análisis y comentarios explicativos.
+- Archivo `dataset_modificado.csv` con los cambios realizados según el procedimiento aplicado.
 
 ---
 
-> Cada archivo `.ipynb` está numerado y documentado para facilitar su seguimiento semana a semana.
+> Este laboratorio sienta las bases para un manejo robusto de datos en proyectos de Machine Learning.
