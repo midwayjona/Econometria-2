@@ -28,9 +28,3 @@ Para ejecutar los notebooks necesitarás tener instalado:
   - `seaborn`
   - `scikit-learn`
   - `mlflow` (en laboratorios avanzados)
-
-Se recomienda utilizar un entorno virtual (`venv`, `conda`) para mantener organizada la instalación de dependencias.
-
----
-
-> Cada archivo `.ipynb` está numerado y documentado para facilitar su seguimiento semana a semana.

@@ -37,11 +37,13 @@ A partir del dataset proporcionado, realizar las siguientes tareas:
      - Discretas
      - Continuas
 
-## Entregables
+## Entregables - Archivos Relacionados
 
-- Notebook Jupyter (`lab1.ipynb`) con todo el código, análisis y comentarios explicativos.
-- Archivo `dataset_modificado.csv` con los cambios realizados según el procedimiento aplicado.
+- [`lab_1.ipynb`](./lab_1.ipynb): Notebook principal del laboratorio con análisis y soluciones.
+- [`new_hotel_data.csv`](./new_hotel_data.csv): Dataset actualizado.
+- [`hotel_data.csv`](./hotel_data.csv): Dataset original utilizado para las tareas.
+- [`lab_1.pdf`](./lab_1.pdf): Instrucciones oficiales del laboratorio en formato PDF.
 
----
 
 > Este laboratorio sienta las bases para un manejo robusto de datos en proyectos de Machine Learning.
+
