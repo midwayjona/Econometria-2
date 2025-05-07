@@ -1,49 +1,26 @@
-# Laboratorio #1 – Ingeniería de Características Parte 1
+# Laboratorio 1 - Econometría 2  
+**Maestría en Investigación de Operaciones – Universidad Galileo**  
+**Estudiante:** Jonathan Amado (Carnet: 14002285)
 
-Este laboratorio se centra en la aplicación de técnicas fundamentales de **ingeniería de características** utilizando un dataset proporcionado.
+## Resumen
 
-## Objetivo
+En este laboratorio se trabajará con una base de datos relacionada con hoteles, contenida en el archivo `hotel_data.csv`. El objetivo principal es aplicar herramientas estadísticas y econométricas utilizando Python en un entorno de Jupyter Notebook para realizar análisis descriptivo, limpieza de datos y visualización de patrones, entre otros ejercicios prácticos. 
 
-Realizar un análisis exploratorio de las características del dataset y aplicar técnicas adecuadas para el manejo de datos faltantes y codificación de variables categóricas.
+La actividad busca reforzar conceptos fundamentales de análisis de datos y preparar el camino para modelaciones más avanzadas en los próximos laboratorios. La entrega incluye el desarrollo completo del laboratorio en formato `.ipynb` junto con los archivos de soporte y los resultados generados.
 
-## Instrucciones
+## Archivos incluidos
 
-A partir del dataset proporcionado, realizar las siguientes tareas:
+- [`lab_1.ipynb`](lab_1.ipynb): Notebook principal donde se desarrollan paso a paso todas las tareas requeridas por el laboratorio.
+- [`hotel_data.csv`](hotel_data.csv): Conjunto de datos utilizado como base para todos los ejercicios.
+- [`lab_1.pdf`](lab_1.pdf): Documento con las instrucciones oficiales del laboratorio, incluyendo cada una de las tareas a resolver.
+- [`hotel_data_resultado.csv`](hotel_data_resultado.csv): Archivo final que contiene los resultados procesados a partir de la base de datos original, según lo solicitado.
 
-1. **Detección de Valores Faltantes**:
-   - Identificar columnas con valores nulos (NA).
-   - Calcular proporciones de faltantes por columna.
-   - Visualizar con una gráfica de barras los porcentajes de faltantes.
+## Instrucciones de uso
 
-2. **Imputación de Datos**:
-   - Variables numéricas: evaluar y aplicar los siguientes métodos de imputación:
-     - Análisis de casos completos (CCA)
-     - Imputación por media
-     - Imputación por mediana
-     - Imputación aleatoria (opcional)
-   - Variables categóricas:
-     - Considerar el impacto en la variable objetivo (target).
-     - Evaluar si se debe usar el valor más frecuente.
-     - Aplicar indicadores de clase faltante si corresponde.
+1. Abrir el archivo `lab_1.ipynb` con Jupyter Notebook.
+2. Asegurarse de tener el archivo `hotel_data.csv` en el mismo directorio.
+3. Seguir el desarrollo de cada sección explicada paso a paso.
+4. Al finalizar, verificar el contenido del archivo `hotel_data_resultado.csv`.
 
-3. **Codificación de Variables Categóricas**:
-   - Aplicar el enfoque más adecuado por variable:
-     - One Hot Encoding
-     - Codificación por Frecuencia
-     - Codificación por Densidad
-
-4. **Clasificación de Variables**:
-   - Identificar y clasificar las variables como:
-     - Discretas
-     - Continuas
-
-## Entregables - Archivos Relacionados
-
-- [`lab_1.ipynb`](./lab_1.ipynb): Notebook principal del laboratorio con análisis y soluciones.
-- [`new_hotel_data.csv`](./new_hotel_data.csv): Dataset actualizado.
-- [`hotel_data.csv`](./hotel_data.csv): Dataset original utilizado para las tareas.
-- [`lab_1.pdf`](./lab_1.pdf): Instrucciones oficiales del laboratorio en formato PDF.
-
-
-> Este laboratorio sienta las bases para un manejo robusto de datos en proyectos de Machine Learning.
+---
 
