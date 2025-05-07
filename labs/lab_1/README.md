@@ -1,26 +1,25 @@
 # Laboratorio 1 - Econometría 2  
-**Maestría en Investigación de Operaciones – Universidad Galileo**  
-**Estudiante:** Jonathan Amado (Carnet: 14002285)
+**Maestría en Investigación de Operaciones - Universidad Galileo**  
+**Estudiante:** Jonathan Amado | **Carnet:** 14002285  
 
-## Resumen
+## Resumen  
+Este laboratorio tiene como objetivo aplicar técnicas estadísticas y de limpieza de datos a una base real del sector hotelero. Se utilizarán herramientas de Python para la exploración, tratamiento de datos faltantes, creación de variables, y construcción de modelos econométricos básicos. El ejercicio refuerza conceptos clave sobre el análisis exploratorio y la preparación de datos para modelos de aprendizaje automático.
 
-En este laboratorio se trabajará con una base de datos relacionada con hoteles, contenida en el archivo `hotel_data.csv`. El objetivo principal es aplicar herramientas estadísticas y econométricas utilizando Python en un entorno de Jupyter Notebook para realizar análisis descriptivo, limpieza de datos y visualización de patrones, entre otros ejercicios prácticos. 
+## Archivos del laboratorio
 
-La actividad busca reforzar conceptos fundamentales de análisis de datos y preparar el camino para modelaciones más avanzadas en los próximos laboratorios. La entrega incluye el desarrollo completo del laboratorio en formato `.ipynb` junto con los archivos de soporte y los resultados generados.
+| Nombre del archivo | Descripción |
+|--------------------|-------------|
+| [lab_1.ipynb](./lab_1.ipynb) | Notebook principal donde se desarrolla todo el laboratorio paso a paso. |
+| [hotel_data.csv](./hotel_data.csv) | Archivo base con datos reales sobre hoteles, que será limpiado y analizado. |
+| [lab_1.pdf](./lab_1.pdf) | Documento de instrucciones con las tareas y objetivos detallados del laboratorio. |
+| [hotel_data_cleaned.csv](./hotel_data_cleaned.csv) | Archivo resultante con los datos transformados y listos para análisis posteriores. |
 
-## Archivos incluidos
+## Cómo usar este laboratorio
 
-- [`lab_1.ipynb`](lab_1.ipynb): Notebook principal donde se desarrollan paso a paso todas las tareas requeridas por el laboratorio.
-- [`hotel_data.csv`](hotel_data.csv): Conjunto de datos utilizado como base para todos los ejercicios.
-- [`lab_1.pdf`](lab_1.pdf): Documento con las instrucciones oficiales del laboratorio, incluyendo cada una de las tareas a resolver.
-- [`hotel_data_resultado.csv`](hotel_data_resultado.csv): Archivo final que contiene los resultados procesados a partir de la base de datos original, según lo solicitado.
-
-## Instrucciones de uso
-
-1. Abrir el archivo `lab_1.ipynb` con Jupyter Notebook.
-2. Asegurarse de tener el archivo `hotel_data.csv` en el mismo directorio.
-3. Seguir el desarrollo de cada sección explicada paso a paso.
-4. Al finalizar, verificar el contenido del archivo `hotel_data_resultado.csv`.
+1. Abrir `lab_1.ipynb` en un entorno Jupyter.
+2. Seguir las instrucciones y código paso a paso, según el documento `lab_1.pdf`.
+3. Verificar que se genera correctamente el archivo `hotel_data_cleaned.csv` al finalizar.
+4. Analizar los resultados y conclusiones obtenidas.
 
 ---
 
