@@ -3,8 +3,6 @@
 Proyecto final del curso **Econometría II – Machine Learning** (Maestría en Investigación de Operaciones, Universidad Galileo).
 El reto consiste en construir y comparar varios modelos de regresión que pronostiquen las ventas semanales de tiendas Walmart a partir de variables económicas y temporales.
 
----
-
 ## Archivos clave (raíz del repositorio)
 
 | Archivo                                              | Descripción                                                                                                                                                                |
@@ -14,7 +12,6 @@ El reto consiste en construir y comparar varios modelos de regresión que pronos
 | [`resultados_modelos.csv`](./resultados_modelos.csv) | Salida del notebook con el ranking final de modelos y sus métricas (RMSE). **Disponible tras ejecutar el notebook.**                                                       |
 | `Proyecto_Final_v2025.pdf`                           | Guía oficial del proyecto (resumen abajo).                                                                                                                                 |
 
----------
 
 ## Resumen de la guía del proyecto (`Proyecto_Final_v2025.pdf`)
 
@@ -25,7 +22,6 @@ La guía establece un flujo de trabajo en cuatro fases:
 3. **Modelado y comparación** – entrenamiento de al menos siete algoritmos de regresión (Lineal, Ridge/Lasso, SVR, Árboles, Random Forest, Gradient Boosting, K‑NN y Redes Neuronales), optimizando hiper‑parámetros con validación cruzada repetida y comparando el desempeño mediante **RMSE**.
 4. **Reporte de resultados** – selección del modelo campeón, generación de un archivo `.csv` con el ranking de modelos y redacción de conclusiones accionables.
 
----
 
 ## Conjunto de datos
 
@@ -37,7 +33,6 @@ La guía establece un flujo de trabajo en cuatro fases:
 * **Target**: `Weekly_Sales` (ventas semanales en USD).
 * **Granularidad**: Una observación por tienda y semana.
 
----
 
 ## Contexto del curso
 
