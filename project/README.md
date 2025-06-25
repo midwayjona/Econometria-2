@@ -44,10 +44,7 @@ La guía establece un flujo de trabajo en cuatro fases:
 * **Workflow completo de ML**: ingestión de datos, ingeniería de características, selección y optimización de modelos, y MLOps básico.
 * Implementación práctica en **Python** con `pandas`, `scikit‑learn`, `tensorflow/keras` y gestión del ciclo de vida en **GitHub**.
 
----
-
 > **Nota:** Todos los archivos del proyecto (datos, notebook, scripts y resultados) residen en el mismo directorio raíz para simplificar la entrega y la revisión.
 
 > *Autor: Jonathan Amado — Carnet 14002285*
->
 > *Maestría en Investigación de Operaciones, Universidad Galileo — 2025*
