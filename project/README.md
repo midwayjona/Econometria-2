@@ -46,5 +46,5 @@ La guía establece un flujo de trabajo en cuatro fases:
 
 > **Nota:** Todos los archivos del proyecto (datos, notebook, scripts y resultados) residen en el mismo directorio raíz para simplificar la entrega y la revisión.
 
-> *Autor: Jonathan Amado — Carnet 14002285*
+> *Autor: Jonathan Amado **14002285*** —
 > *Maestría en Investigación de Operaciones, Universidad Galileo — 2025*
