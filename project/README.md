@@ -14,7 +14,7 @@ El reto consiste en construir y comparar varios modelos de regresión que pronos
 | [`resultados_modelos.csv`](./resultados_modelos.csv) | Salida del notebook con el ranking final de modelos y sus métricas (RMSE). **Disponible tras ejecutar el notebook.**                                                       |
 | `Proyecto_Final_v2025.pdf`                           | Guía oficial del proyecto (resumen abajo).                                                                                                                                 |
 
----
+----
 
 ## Resumen de la guía del proyecto (`Proyecto_Final_v2025.pdf`)
 
